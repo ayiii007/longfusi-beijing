@@ -1,0 +1,111 @@
+{
+  "label": "隆福寺街　錫細工",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "navPlace": {
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "北京"
+        },
+        "geometry": {
+          "coordinates": [
+            116.394453,
+            39.898105
+          ],
+          "type": "Point"
+        },
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019887-0/feature/1"
+      }
+    ],
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019887-0/feature-collection",
+    "type": "FeatureCollection"
+  },
+  "license": "CC BY 4.0",
+  "related": [
+    {
+      "format": "text/html",
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3702-019887-0.html"
+    }
+  ],
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019887-0",
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "sequences": [
+    {
+      "label": "写真",
+      "canvases": [
+        {
+          "height": 2281,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019887-0/canvas",
+          "width": 2801,
+          "images": [
+            {
+              "resource": {
+                "format": "image/jpeg",
+                "service": {
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019887-0.tif",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019887-0.tif/full/full/0/default.jpg",
+                "default": {
+                  "height": 2281,
+                  "width": 2801,
+                  "service": {
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019887-0.tif",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019887-0.tif/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "label": "オリジナル写真",
+                  "format": "image/jpeg"
+                },
+                "@type": "oa:Choice",
+                "height": 2281,
+                "width": 2801,
+                "item": [
+                  {
+                    "@type": "dctypes:Image",
+                    "label": "自動カラー化写真",
+                    "format": "image/jpeg",
+                    "height": 2281,
+                    "width": 2801,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3702-019887-0.tif"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3702-019887-0.tif/full/full/0/default.jpg"
+                  }
+                ]
+              },
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019887-0/annotation",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019887-0/canvas",
+              "motivation": "sc:painting",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "label": "写真"
+        }
+      ],
+      "@type": "sc:Sequence",
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019887-0/sequence"
+    }
+  ],
+  "@type": "sc:Manifest",
+  "metadata": [
+    {
+      "label": "DC.identifier",
+      "value": "3702-019887-0"
+    },
+    {
+      "value": "#19390619",
+      "label": "created_at"
+    }
+  ],
+  "viewingHint": "individuals",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "within": "https://codh.rois.ac.jp/north-china-railway/"
+}

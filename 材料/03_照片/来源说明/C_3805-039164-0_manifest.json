@@ -1,0 +1,115 @@
+{
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "DC.identifier",
+      "value": "3805-039164-0"
+    },
+    {
+      "value": "#194106",
+      "label": "created_at"
+    },
+    {
+      "value": "山之内",
+      "label": "DC.creator"
+    }
+  ],
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "label": "写真",
+      "canvases": [
+        {
+          "images": [
+            {
+              "resource": {
+                "format": "image/jpeg",
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3805-039164-0.tif/full/full/0/default.jpg",
+                "service": {
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3805-039164-0.tif",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "@type": "oa:Choice",
+                "default": {
+                  "service": {
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3805-039164-0.tif",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                  "width": 2801,
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3805-039164-0.tif/full/full/0/default.jpg",
+                  "height": 2281,
+                  "format": "image/jpeg",
+                  "label": "オリジナル写真",
+                  "@type": "dctypes:Image"
+                },
+                "item": [
+                  {
+                    "label": "自動カラー化写真",
+                    "format": "image/jpeg",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3805-039164-0.tif"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3805-039164-0.tif/full/full/0/default.jpg",
+                    "width": 2801,
+                    "height": 2281
+                  }
+                ],
+                "height": 2281,
+                "width": 2801
+              },
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3805-039164-0/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3805-039164-0/canvas"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "label": "写真",
+          "height": 2281,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3805-039164-0/canvas",
+          "width": 2801
+        }
+      ],
+      "@type": "sc:Sequence",
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3805-039164-0/sequence"
+    }
+  ],
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "related": [
+    {
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3805-039164-0.html",
+      "format": "text/html"
+    }
+  ],
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3805-039164-0",
+  "license": "CC BY 4.0",
+  "navPlace": {
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3805-039164-0/feature-collection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3805-039164-0/feature/1",
+        "geometry": {
+          "coordinates": [
+            116.394453,
+            39.898105
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "label": "北京"
+        }
+      }
+    ],
+    "type": "FeatureCollection"
+  },
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "演芸に集る人々　隆福寺の市"
+}

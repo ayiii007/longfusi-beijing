@@ -1,0 +1,115 @@
+{
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "viewingHint": "individuals",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "metadata": [
+    {
+      "label": "DC.identifier",
+      "value": "3702-019880-0"
+    },
+    {
+      "label": "created_at",
+      "value": "#19390619"
+    },
+    {
+      "value": "小亀",
+      "label": "DC.creator"
+    }
+  ],
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "label": "写真",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "label": "写真",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019880-0/canvas",
+              "motivation": "sc:painting",
+              "resource": {
+                "item": [
+                  {
+                    "height": 2281,
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3702-019880-0.tif"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3702-019880-0.tif/full/full/0/default.jpg",
+                    "width": 2801,
+                    "@type": "dctypes:Image",
+                    "label": "自動カラー化写真",
+                    "format": "image/jpeg"
+                  }
+                ],
+                "height": 2281,
+                "width": 2801,
+                "@type": "oa:Choice",
+                "default": {
+                  "width": 2801,
+                  "service": {
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019880-0.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019880-0.tif/full/full/0/default.jpg",
+                  "height": 2281,
+                  "format": "image/jpeg",
+                  "label": "オリジナル写真",
+                  "@type": "dctypes:Image"
+                },
+                "service": {
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019880-0.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3702-019880-0.tif/full/full/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019880-0/annotation"
+            }
+          ],
+          "height": 2281,
+          "width": 2801,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019880-0/canvas"
+        }
+      ],
+      "@type": "sc:Sequence",
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3702-019880-0/sequence"
+    }
+  ],
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "license": "CC BY 4.0",
+  "related": [
+    {
+      "format": "text/html",
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3702-019880-0.html"
+    }
+  ],
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019880-0",
+  "navPlace": {
+    "features": [
+      {
+        "type": "Feature",
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019880-0/feature/1",
+        "geometry": {
+          "coordinates": [
+            116.394453,
+            39.898105
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "label": "北京"
+        }
+      }
+    ],
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3702-019880-0/feature-collection",
+    "type": "FeatureCollection"
+  },
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "隆福寺街　長命縷　を売る老婆"
+}

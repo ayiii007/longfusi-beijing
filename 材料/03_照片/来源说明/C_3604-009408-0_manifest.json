@@ -1,0 +1,111 @@
+{
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "DC.identifier",
+      "value": "3604-009408-0"
+    },
+    {
+      "label": "DC.creator",
+      "value": "田中"
+    }
+  ],
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3604-009408-0/sequence",
+      "canvases": [
+        {
+          "images": [
+            {
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3604-009408-0/annotation",
+              "resource": {
+                "@type": "oa:Choice",
+                "default": {
+                  "height": 2281,
+                  "width": 2801,
+                  "service": {
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3604-009408-0.tif",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3604-009408-0.tif/full/full/0/default.jpg",
+                  "@type": "dctypes:Image",
+                  "label": "オリジナル写真",
+                  "format": "image/jpeg"
+                },
+                "item": [
+                  {
+                    "height": 2281,
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3604-009408-0.tif/full/full/0/default.jpg",
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3604-009408-0.tif"
+                    },
+                    "width": 2801,
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "label": "自動カラー化写真"
+                  }
+                ],
+                "height": 2281,
+                "width": 2801,
+                "format": "image/jpeg",
+                "service": {
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3604-009408-0.tif",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3604-009408-0.tif/full/full/0/default.jpg"
+              },
+              "motivation": "sc:painting",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3604-009408-0/canvas",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "label": "写真",
+          "@type": "sc:Canvas",
+          "width": 2801,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3604-009408-0/canvas",
+          "height": 2281
+        }
+      ],
+      "@type": "sc:Sequence",
+      "label": "写真"
+    }
+  ],
+  "navPlace": {
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3604-009408-0/feature-collection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3604-009408-0/feature/1",
+        "geometry": {
+          "coordinates": [
+            116.394453,
+            39.898105
+          ],
+          "type": "Point"
+        },
+        "properties": {
+          "label": "北京"
+        }
+      }
+    ],
+    "type": "FeatureCollection"
+  },
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3604-009408-0",
+  "related": [
+    {
+      "format": "text/html",
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3604-009408-0.html"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "label": "隆福寺廟会",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

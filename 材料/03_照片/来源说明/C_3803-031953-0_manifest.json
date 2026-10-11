@@ -1,0 +1,115 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "虫売り　隆福寺",
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "license": "CC BY 4.0",
+  "related": [
+    {
+      "format": "text/html",
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3803-031953-0.html"
+    }
+  ],
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3803-031953-0",
+  "navPlace": {
+    "type": "FeatureCollection",
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3803-031953-0/feature-collection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "label": "北京"
+        },
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3803-031953-0/feature/1",
+        "geometry": {
+          "coordinates": [
+            116.394453,
+            39.898105
+          ],
+          "type": "Point"
+        }
+      }
+    ]
+  },
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "label": "写真",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "height": 2281,
+          "width": 2801,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3803-031953-0/canvas",
+          "images": [
+            {
+              "resource": {
+                "height": 2281,
+                "width": 2801,
+                "item": [
+                  {
+                    "height": 2281,
+                    "service": {
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3803-031953-0.tif"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3803-031953-0.tif/full/full/0/default.jpg",
+                    "width": 2801,
+                    "@type": "dctypes:Image",
+                    "label": "自動カラー化写真",
+                    "format": "image/jpeg"
+                  }
+                ],
+                "default": {
+                  "height": 2281,
+                  "service": {
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3803-031953-0.tif",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3803-031953-0.tif/full/full/0/default.jpg",
+                  "width": 2801,
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "label": "オリジナル写真"
+                },
+                "@type": "oa:Choice",
+                "service": {
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3803-031953-0.tif",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3803-031953-0.tif/full/full/0/default.jpg",
+                "format": "image/jpeg"
+              },
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3803-031953-0/annotation",
+              "motivation": "sc:painting",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3803-031953-0/canvas",
+              "@type": "oa:Annotation"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "label": "写真"
+        }
+      ],
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3803-031953-0/sequence"
+    }
+  ],
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "viewingHint": "individuals",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "metadata": [
+    {
+      "label": "DC.identifier",
+      "value": "3803-031953-0"
+    },
+    {
+      "label": "created_at",
+      "value": "#194008"
+    },
+    {
+      "value": "安福",
+      "label": "DC.creator"
+    }
+  ]
+}

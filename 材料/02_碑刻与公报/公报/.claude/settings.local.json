@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -L -o test.jpg \"https://bjmemory.clcn.net.cn/api/picture/getImage?filePath=images/bulletin/20260314/005_szgb_1928-1937/0900536383058000.jpg\" -w \"%{http_code} %{content_type} %{size_download}\\\\n\")",
+      "Bash(curl -s -L -o 003期_呈覆內三區署亮果廠暗溝/__TRACKED_VAR__.jpg 'https://bjmemory.clcn.net.cn/api/picture/getImage?filePath=images/bulletin/20260314/005_szgb_1928-1937/__TRACKED_VAR__.jpg')",
+      "Bash(curl -s -L -o 166期_函籌備自治委員會火場殘留屋架/__TRACKED_VAR__.jpg 'https://bjmemory.clcn.net.cn/api/picture/getImage?filePath=images/bulletin/20260314/005_szgb_1928-1937/__TRACKED_VAR__.jpg')",
+      "Bash(find . -name \"*.jpg\" -exec file {} \\\\;)",
+      "Bash(awk -F: '{print $1, $2}')"
+    ]
+  }
+}

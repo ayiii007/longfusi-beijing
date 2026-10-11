@@ -1,0 +1,107 @@
+{
+  "navPlace": {
+    "features": [
+      {
+        "properties": {
+          "label": "北京"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.394453,
+            39.898105
+          ]
+        },
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3901-007575-0/feature/1",
+        "type": "Feature"
+      }
+    ],
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3901-007575-0/feature-collection",
+    "type": "FeatureCollection"
+  },
+  "related": [
+    {
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3901-007575-0.html",
+      "format": "text/html"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3901-007575-0",
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "label": "隆福寺廟会",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "metadata": [
+    {
+      "value": "3901-007575-0",
+      "label": "DC.identifier"
+    }
+  ],
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "viewingHint": "individuals",
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "sequences": [
+    {
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3901-007575-0/sequence",
+      "label": "写真",
+      "canvases": [
+        {
+          "images": [
+            {
+              "resource": {
+                "@type": "oa:Choice",
+                "default": {
+                  "label": "オリジナル写真",
+                  "format": "image/jpeg",
+                  "@type": "dctypes:Image",
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3901-007575-0.tif"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3901-007575-0.tif/full/full/0/default.jpg",
+                  "width": 2975,
+                  "height": 2345
+                },
+                "item": [
+                  {
+                    "width": 2975,
+                    "service": {
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3901-007575-0.tif",
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3901-007575-0.tif/full/full/0/default.jpg",
+                    "height": 2345,
+                    "label": "自動カラー化写真",
+                    "format": "image/jpeg",
+                    "@type": "dctypes:Image"
+                  }
+                ],
+                "width": 2975,
+                "height": 2345,
+                "format": "image/jpeg",
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3901-007575-0.tif"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3901-007575-0.tif/full/full/0/default.jpg"
+              },
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3901-007575-0/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3901-007575-0/canvas"
+            }
+          ],
+          "@type": "sc:Canvas",
+          "label": "写真",
+          "height": 2345,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3901-007575-0/canvas",
+          "width": 2975
+        }
+      ],
+      "@type": "sc:Sequence"
+    }
+  ],
+  "@type": "sc:Manifest"
+}

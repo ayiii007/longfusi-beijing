@@ -1,0 +1,153 @@
+{
+  "book": "01_文献与文本/原件/隆福寺 建筑轮回的下一站.pdf",
+  "sha256": "2d00c4a4babb6dbc722cddc4db79b89206fe8c6398deb2f7de8b1d4a5f240120",
+  "photos": [
+    {
+      "id": "P822",
+      "title": "隆福寺天王殿",
+      "printed_page": 108,
+      "pdf_page": 7,
+      "position": "上",
+      "book_caption": "1901年，火灾前隆福寺天王殿的景象",
+      "file": "03_照片/场景照片/P822_隆福寺天王殿.jpg",
+      "acquisition": "既有网络原图",
+      "image_url": "https://image.thepaper.cn/depository/image/5/518/822.jpg",
+      "crop_box": null
+    },
+    {
+      "id": "P823",
+      "title": "隆福寺慈天广覆殿",
+      "printed_page": 108,
+      "pdf_page": 7,
+      "position": "下",
+      "book_caption": "19世纪末的慈天广覆殿，来自南内的石栏板历历可见",
+      "file": "03_照片/场景照片/P823_隆福寺慈天广覆殿.jpg",
+      "acquisition": "既有网络原图",
+      "image_url": "https://image.thepaper.cn/depository/image/5/518/823.jpg",
+      "crop_box": null
+    },
+    {
+      "id": "P824",
+      "title": "万善正觉殿外景与院内庙市",
+      "printed_page": 109,
+      "pdf_page": 8,
+      "position": "左上",
+      "book_caption": "20世纪初的隆福寺万善正觉殿。图中天王殿和慈天广覆殿已毁，万善正觉殿成了入寺后第一座建筑。",
+      "file": "03_照片/场景照片/P824_万善正觉殿外景与院内庙市.jpg",
+      "acquisition": "网络原图",
+      "image_url": "https://image.thepaper.cn/depository/image/5/518/824.jpg",
+      "crop_box": null
+    },
+    {
+      "id": "BK109B",
+      "title": "毗卢殿北立面",
+      "printed_page": 109,
+      "pdf_page": 8,
+      "position": "右上",
+      "book_caption": "20世纪初的隆福寺毗卢殿北立面。",
+      "file": "03_照片/场景照片/BK109B_毗卢殿北立面.jpg",
+      "acquisition": "原扫描照片裁切",
+      "image_url": "",
+      "crop_box": [
+        834,
+        55,
+        1526,
+        682
+      ]
+    },
+    {
+      "id": "BK115A",
+      "title": "万善正觉殿明间天宫藻井",
+      "printed_page": 115,
+      "pdf_page": 14,
+      "position": "上",
+      "book_caption": "隆福寺万善正觉殿明间藻井如天宫攒聚，引人视线直入九霄，是颇具现代感的设计。",
+      "file": "03_照片/场景照片/BK115A_万善正觉殿明间天宫藻井.jpg",
+      "acquisition": "原扫描照片裁切",
+      "image_url": "",
+      "crop_box": [
+        377,
+        58,
+        1165,
+        984
+      ]
+    },
+    {
+      "id": "BK115B",
+      "title": "毗卢殿明间藻井中心龙",
+      "printed_page": 115,
+      "pdf_page": 14,
+      "position": "下",
+      "book_caption": "隆福寺毗卢殿明间藻井中心的龙。",
+      "file": "03_照片/场景照片/BK115B_毗卢殿明间藻井中心龙.jpg",
+      "acquisition": "原扫描照片裁切",
+      "image_url": "",
+      "crop_box": [
+        378,
+        1007,
+        1165,
+        1940
+      ]
+    },
+    {
+      "id": "P832",
+      "title": "改造中的隆福大厦正立面",
+      "printed_page": 116,
+      "pdf_page": 15,
+      "position": "左下",
+      "book_caption": "2016年，改造中的隆福大厦。",
+      "file": "03_照片/场景照片/P832_改造中的隆福大厦正立面.jpg",
+      "acquisition": "既有网络原图",
+      "image_url": "https://image.thepaper.cn/depository/image/5/518/832.jpg",
+      "crop_box": null
+    },
+    {
+      "id": "P831",
+      "title": "从连丰胡同看改造中的隆福大厦",
+      "printed_page": 116,
+      "pdf_page": 15,
+      "position": "右下",
+      "book_caption": "2016年，从连丰胡同看改造中的隆福大厦。",
+      "file": "03_照片/场景照片/P831_从连丰胡同看改造中的隆福大厦.jpg",
+      "acquisition": "既有网络原图",
+      "image_url": "https://image.thepaper.cn/depository/image/5/518/831.jpg",
+      "crop_box": null
+    },
+    {
+      "id": "BK117",
+      "title": "隆福大厦屋顶改造后的仿古建筑",
+      "printed_page": 117,
+      "pdf_page": 16,
+      "position": "上",
+      "book_caption": "隆福大厦顶部的新版仿古建筑，与1998年版相比，更多体现了摹写大隆福寺原状的意图。",
+      "file": "03_照片/场景照片/BK117_隆福大厦屋顶改造后的仿古建筑.jpg",
+      "acquisition": "原扫描照片裁切",
+      "image_url": "",
+      "crop_box": [
+        107,
+        69,
+        1473,
+        897
+      ]
+    },
+    {
+      "id": "BK118",
+      "title": "2023年初秋隆福寺街区改造现场",
+      "printed_page": 118,
+      "pdf_page": 17,
+      "position": "上",
+      "book_caption": "2023年初秋，焕新的隆福寺街区即将迎客。",
+      "file": "03_照片/场景照片/BK118_2023年初秋隆福寺街区改造现场.jpg",
+      "acquisition": "原扫描照片裁切",
+      "image_url": "",
+      "crop_box": [
+        126,
+        43,
+        1525,
+        807
+      ]
+    }
+  ],
+  "excluded": "文件第1—5、9—13、18—21页的手绘图、地图及构造示意图不计入照片。",
+  "online_search": "检索作者2017年文章及其图像服务器、转载图注、北京旅游网、以殿名与摄影者署名检索。P824取得同图；其余五张未检得精确同图，不以相似照片替代。"
+}

@@ -1,0 +1,107 @@
+{
+  "navPlace": {
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3902-007373-0/feature-collection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.394453,
+            39.898105
+          ]
+        },
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3902-007373-0/feature/1",
+        "properties": {
+          "label": "北京"
+        }
+      }
+    ],
+    "type": "FeatureCollection"
+  },
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3902-007373-0",
+  "related": [
+    {
+      "format": "text/html",
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3902-007373-0.html"
+    }
+  ],
+  "license": "CC BY 4.0",
+  "label": "隆福寺廟市",
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "value": "3902-007373-0",
+      "label": "DC.identifier"
+    }
+  ],
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "label": "写真",
+      "canvases": [
+        {
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3902-007373-0/canvas",
+              "motivation": "sc:painting",
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3902-007373-0/annotation",
+              "resource": {
+                "item": [
+                  {
+                    "height": 2345,
+                    "service": {
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3902-007373-0.tif",
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json"
+                    },
+                    "width": 2975,
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3902-007373-0.tif/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "label": "自動カラー化写真"
+                  }
+                ],
+                "height": 2345,
+                "width": 2975,
+                "@type": "oa:Choice",
+                "default": {
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "label": "オリジナル写真",
+                  "height": 2345,
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3902-007373-0.tif/full/full/0/default.jpg",
+                  "service": {
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3902-007373-0.tif"
+                  },
+                  "width": 2975
+                },
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3902-007373-0.tif"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3902-007373-0.tif/full/full/0/default.jpg",
+                "format": "image/jpeg"
+              }
+            }
+          ],
+          "label": "写真",
+          "@type": "sc:Canvas",
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3902-007373-0/canvas",
+          "width": 2975,
+          "height": 2345
+        }
+      ],
+      "@type": "sc:Sequence",
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3902-007373-0/sequence"
+    }
+  ]
+}

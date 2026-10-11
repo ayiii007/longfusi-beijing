@@ -1,0 +1,115 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "label": "摩登姑娘と老母　隆福寺附近",
+  "logo": "https://codh.rois.ac.jp/north-china-railway/images/logomark-black.svg",
+  "license": "CC BY 4.0",
+  "related": [
+    {
+      "@id": "https://codh.rois.ac.jp/north-china-railway/photograph/3605-014920-0.html",
+      "format": "text/html"
+    }
+  ],
+  "@id": "http://codh.rois.ac.jp/north-china-railway/manifest/3605-014920-0",
+  "navPlace": {
+    "features": [
+      {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.394453,
+            39.898105
+          ]
+        },
+        "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3605-014920-0/feature/1",
+        "properties": {
+          "label": "北京"
+        },
+        "type": "Feature"
+      }
+    ],
+    "id": "http://codh.rois.ac.jp/north-china-railway/manifest/3605-014920-0/feature-collection",
+    "type": "FeatureCollection"
+  },
+  "@type": "sc:Manifest",
+  "sequences": [
+    {
+      "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3605-014920-0/sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "label": "写真",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "on": "http://codh.rois.ac.jp/north-china-railway/iiif/3605-014920-0/canvas",
+              "motivation": "sc:painting",
+              "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3605-014920-0/annotation",
+              "resource": {
+                "item": [
+                  {
+                    "format": "image/jpeg",
+                    "label": "自動カラー化写真",
+                    "@type": "dctypes:Image",
+                    "service": {
+                      "profile": "http://iiif.io/api/image/2/level2.json",
+                      "@context": "http://iiif.io/api/image/2/context.json",
+                      "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3605-014920-0.tif"
+                    },
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/color/3605-014920-0.tif/full/full/0/default.jpg",
+                    "width": 2801,
+                    "height": 2281
+                  }
+                ],
+                "width": 2801,
+                "height": 2281,
+                "@type": "oa:Choice",
+                "default": {
+                  "@type": "dctypes:Image",
+                  "format": "image/jpeg",
+                  "label": "オリジナル写真",
+                  "height": 2281,
+                  "width": 2801,
+                  "service": {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3605-014920-0.tif"
+                  },
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3605-014920-0.tif/full/full/0/default.jpg"
+                },
+                "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3605-014920-0.tif/full/full/0/default.jpg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@id": "https://codh.rois.ac.jp/north-china-railway/iiif/original/3605-014920-0.tif"
+                },
+                "format": "image/jpeg"
+              }
+            }
+          ],
+          "height": 2281,
+          "width": 2801,
+          "@id": "http://codh.rois.ac.jp/north-china-railway/iiif/3605-014920-0/canvas"
+        }
+      ],
+      "@type": "sc:Sequence",
+      "label": "写真"
+    }
+  ],
+  "within": "https://codh.rois.ac.jp/north-china-railway/",
+  "attribution": "<a href=\"https://codh.rois.ac.jp/north-china-railway/about/#committee\">華北交通アーカイブ作成委員会</a>",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "value": "3605-014920-0",
+      "label": "DC.identifier"
+    },
+    {
+      "label": "created_at",
+      "value": "#193904"
+    },
+    {
+      "value": "吉田",
+      "label": "DC.creator"
+    }
+  ]
+}
